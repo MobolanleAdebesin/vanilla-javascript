@@ -1,0 +1,13 @@
+.greeting {
+  margin: 1rem;
+}
+
+.greetingContainer {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  max-width: 30rem;
+}
+.hidden {
+  display: none;
+}

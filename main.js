@@ -7,6 +7,7 @@ for (let i = 0; i < greeting.length; i++) {
     if (greeting[i].id === "hello") {
       greetingContainer.map(div => {
         div.innerText = "Hello";
+        div.classList.remove("hidden");
       });
     } else {
       greetingContainer.map(div => {
