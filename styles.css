@@ -1,5 +1,9 @@
+body {
+  font-family: Arial;
+}
 .greeting {
   margin: 1rem;
+  cursor: pointer;
 }
 
 .greetingContainer {

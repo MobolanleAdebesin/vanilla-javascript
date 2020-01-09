@@ -12,6 +12,7 @@ for (let i = 0; i < greeting.length; i++) {
     } else {
       greetingContainer.map(div => {
         div.innerText = "Goodbye";
+        div.classList.remove("hidden");
       });
     }
   });
