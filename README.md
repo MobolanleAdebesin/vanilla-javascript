@@ -18,8 +18,7 @@ The deployed site can be found [here](https://reverent-mclean-418a31.netlify.com
 ## Alternate Branch 
 To access the development branch 
 1. Fork and clone repository 
-2. In the terminal change into the project directory 
-3. run command `git checkout develop`
+2. In the terminal change into the project directory run command `git checkout develop`
 4. copy full path of index.html and paste into browser 
 
 
