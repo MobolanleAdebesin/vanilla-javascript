@@ -4,6 +4,10 @@ body {
 .greeting {
   margin: 1rem;
   cursor: pointer;
+  box-shadow: 1px 1px 4px black;
+}
+.greeting:hover {
+  box-shadow: none;
 }
 
 .greetingContainer {
