@@ -4,17 +4,29 @@ body {
 .greeting {
   margin: 1rem;
   cursor: pointer;
-  box-shadow: 1px 1px 4px black;
+  box-shadow: 2px 2px 4px black;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #0671d2;
+  border: black;
+  color: #fff;
+  font-weight: 600;
 }
 .greeting:hover {
   box-shadow: none;
+  color: midnightblue;
+  background-color: lightgray;
 }
-
+.greeting:focus {
+  outline: none;
+}
 .greetingContainer {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid lightgray;
+  border: 2px solid #0671d2;
   max-width: 30rem;
+  border-radius: 12px;
+  background-color: #c4d8ea;
 }
 .hidden {
   display: none;
